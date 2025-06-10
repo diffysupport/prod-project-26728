@@ -14,7 +14,6 @@ basic:
         - 1200
     pages:
         - /
-        - /partner
         - /demo
         - /feature-summary
         - /unified-observability-platform
