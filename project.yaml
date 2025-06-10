@@ -1,0 +1,83 @@
+basic:
+    name: 'Demo testing1'
+    environments:
+        production: 'https://ganapathys90.sg-host.com/'
+        staging: ''
+        development: ''
+    basicAuth:
+        production: { user: '', password: '' }
+        staging: { user: '', password: '' }
+        development: null
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /partner
+        - /demo
+        - /feature-summary
+        - /unified-observability-platform
+        - /digital-experience-monitoring
+        - /server-monitoring
+        - /network-monitoring
+        - /network-traffic-monitoring
+        - /service-monitoring
+        - /desktop-monitoring
+        - /industry-summary
+        - /industry-summary/financial
+        - /industry-summary/manufacturing
+        - /industry-summary/telecom
+        - /industry-summary/retail
+        - /industry-summary/software-bpm
+        - /industry-summary/hospitality
+        - /industry-summary/government
+        - /industry-summary/healthcare
+        - /industry-summary/transportation-and-logistics
+        - /industry-summary/education
+        - /industry-summary/managed-service-providers
+        - /resource-summary
+        - /category/case-study
+        - /downloads
+        - /category/news
+        - /category/webinar-events
+        - /about-us
+        - /career
+        - /contact-us
+        - /veryx-cloudmon-recognized-again-in-gartner-market-guide-for-infrastructure-monitoring-tools
+        - /unified-observability-feature
+        - /observability-using-cloudmon
+        - /user-application-experience-monitoring-using-veryx-cloudmon
+        - /branch-site-monitoring-using-cloudmon
+        - /network-monitoring-using-cloudmon
+        - /terms-conditions
+        - /privacy-policy
+        - /log-monitoring-snmp-trap-manager-geo-monitoring
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    single_ip: false
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
